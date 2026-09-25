@@ -12,6 +12,7 @@
 anthropic>=0.120.0
 streamlit>=1.50.0
 python-dotenv>=1.1.1
+requests>=2.32.0
 
 # Optional. The app runs without these; the sidebar shows which are active.
 google-search-results>=2.4.2   # SerpAPI, provides `from serpapi import GoogleSearch`
