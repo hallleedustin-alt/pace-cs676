@@ -14,16 +14,4 @@ This project is deployed as a Streamlit application on Hugging Face using Docker
 - Rules + Claude Haiku MAE: approximately 0.079
 - Rules + Claude Haiku band accuracy: 87.5%
 
-## Live App Examples
-
-### Nature — High-Credibility Source
-
-![Nature credibility score](screenshots/nature-score.png)
-
-### arXiv — Preprint Evaluation
-
-![arXiv credibility score](screenshots/arxiv-score.png)
-
-### Research Assistant
-
-![Research assistant example](screenshots/research-assistant.png)
+<img width="1911" height="970" alt="Hugging Face Deployment" src="https://github.com/user-attachments/assets/14127f34-36a3-4f7b-800b-7d37c6f7345e" />
