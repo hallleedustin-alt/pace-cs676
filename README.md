@@ -16,13 +16,13 @@ at Pace University.
 - [Python Implementation](homework/02_logreg.py)
 
 ### Homework 03 - Cross-Validation
-- [Python Implementation](homework/03_cv.py)
-- [Results and Report](homework/03_cv_report.md)
+- [Python Implementation](homework/03_cross_validation/03_cv.py)
+- [Results and Report](homework/03_cross_validation/03_cv_report.md)
 
 ### Homework 04 - Decision Trees
-- [Python Implementation](homework/04_tree.py)
-- [Results and Report](homework/04_tree_report.md)
-- [Decision Tree Visualization](homework/04_tree_regions.png)
+- [Python Implementation](homework/04_decision_trees/04_tree.py)
+- [Results and Report](homework/04_decision_trees/04_tree_report.md)
+- [Decision Tree Visualization](homework/04_decision_trees/04_tree_regions.png)
 
 ## Projects
 
