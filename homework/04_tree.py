@@ -19,6 +19,7 @@ of this exercise.
 """
 
 import argparse
+from pathlib import Path
 import numpy as np
 
 SEED = 676
@@ -309,11 +310,19 @@ def main():
     clf.train(X_tr, y_tr)
 
     train_acc, test_acc, n_leaves, depth, baseline = report(clf, X_tr, y_tr, X_te, y_te)
+    output_dir = Path(__file__).resolve().parent
+    
     if args.plot:
-        save_plot(X_tr, y_tr, X_te, y_te, clf)
-    if args.report:
-        save_report(train_acc, test_acc, n_leaves, depth, baseline)
+        save_plot(
+            X_tr, y_tr, X_te, y_te, clf,
+            path=str(output_dir / "04_tree_regions.png")
+        )
 
+    if args.report:
+        save_report(
+            train_acc, test_acc, n_leaves, depth, baseline,
+            path=str(output_dir / "04_tree_report.md")
+        )
 
 if __name__ == "__main__":
     main()
