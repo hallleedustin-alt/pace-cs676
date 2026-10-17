@@ -14,6 +14,10 @@ course notes on 240 synthetic points in two dimensions, holding out
 | leaves | 5 |
 | depth | 4 |
 
+## Decision Tree Visualization
+
+![Decision Tree Classification Regions](04_tree_regions.png)
+
 ## Reading the numbers
 
 Training accuracy is 1.0000. That is not a sign of a good model — this

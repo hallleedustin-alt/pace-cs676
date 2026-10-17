@@ -270,6 +270,10 @@ course notes on {2 * N_PER_CLASS} synthetic points in two dimensions, holding ou
 | leaves | {n_leaves} |
 | depth | {depth} |
 
+## Decision Tree Visualization
+
+![Decision Tree Classification Regions](04_tree_regions.png)
+
 ## Reading the numbers
 
 Training accuracy is {train_acc:.4f}. That is not a sign of a good model — this
